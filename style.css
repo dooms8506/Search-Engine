@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://images.pexels.com/photos/3879070/pexels-photo-3879070.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+h1 {
+    color:white;
+    margin-bottom: 70px;
+    font-size: 60px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 10px rgb(226, 241, 84), 0 0 5px darkblue;
+}
+
+.search-field {
+    color:black;
+    background-color: teal;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 45px;
+    text-align: center;
+    padding: 0;
+    border: none;
+    border-radius: 25px;
+    outline: none;
+    float: left;
+    background:white;
+}
+
+.business {
+    width: 400px;
+}
+
+.search-btn {
+    height: 40px;
+    width: 50px;
+    background: #f1e67c;
+    border: none;
+    color: #000;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+
+    
+}
+
+.search-btn:hover {
+    background: rgb(178, 245, 152);
+    cursor: pointer;
+    box-shadow: 2.5px 2.5px 5px 3px #888888;
+}
+
+.small {
+    
+    color: rgb(252, 249, 249);
+}
